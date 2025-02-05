@@ -1,0 +1,64 @@
+# GET http://localhost:3000/users
+
+# GET http://localhost:3000/books
+
+
+# POST http://localhost:3000/books
+# Content-Type: application/json
+
+# {
+# "title":"ramyan",
+# "author":"valmikirushi",
+# "rating":4
+# }
+
+# patch http://localhost:3000/books/1
+# Content-Type: application/json
+
+# {
+# "id":"1",
+# "rating":4
+# }
+
+
+
+
+
+
+
+
+
+
+# POST http://localhost:3000/users/signup
+# Content-Type: application/json
+
+# {
+#   "username": "rushi",
+#   "email": "rushipatil@gmail.com",
+#   "password": "12345678"
+# }
+
+
+# POST http://localhost:3000/users/login
+# Content-Type: application/json
+
+# {
+#   "username": "newtestuser",
+#   "password": "12345678"
+# }
+
+
+
+POST http://localhost:3000/orderbook
+Content-Type: application/json
+
+{
+  "title": "The Great Gatsbyyyy",
+  "author": "F. Scott Fitzgerald",
+  "price": 499,
+  "image": "https://example.com/image.jpg",
+  "name": "John Doe",
+  "address": "123 Main St, Springfield",
+  "mobileNumber": "9876543210",
+  "pinCode": "123456"
+}
